@@ -1,20 +1,18 @@
-.page {
-  background-color: rgb(172, 120, 221);
-  width: 50%;
-  height: 65%;
-  align-items: center;
+body{
+  background-color: rgb(160, 87, 230);
 }
 .container {
   display: flex;
   flex-direction: column;
   background-color: white;
   margin: auto;
-  border: 2px solid rgba(99, 87, 87, 0.636);
-  box-shadow: 5px 10px #88888874;
+  border: 2px solid rgba(99, 87, 98, 0.636);
   width: 280px;
+  align-items: center;
+
 }
 
-.headDiv {
+.header {
   opacity: 0.2;
   font-size: larger;
   font-weight: bold;
@@ -24,22 +22,24 @@
 img {
   align-self: flex-end;
   border-radius: 80%;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
+  align-content: center;
+
 }
 
-.footerDiv {
+.footer {
   margin: 2%;
   margin-top: 50px;
 }
 
-h5 {
-  font-size: x-large;
-  margin: 0;
-  margin-left: 25%;
+h4 {
+  opacity: 0.8;
+  text-align: center;
+  margin: 0%;
 }
 
-.nav {
+.list {
   width: 100%;
   list-style-type: none;
   display: flex;
@@ -61,3 +61,11 @@ li:hover {
   background-color: rgba(151, 146, 156, 0.362);
   color: rgb(158, 100, 213);
 }
+
+/* .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 10,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+} */
